@@ -1,3 +1,150 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* :root */
+:root {
+  /* Font Size */
+  --font-56px: 56px;
+  --font-40px: 40px;
+  --font-32px: 32px;
+  --font-24px: 24px;
+  --font-20px: 20px;
+  --font-18px: 18px;
+  --font-16px: 16px;
+
+  /* Font Weight */
+  --weight-bold: 700;
+  --weight-semibold: 600;
+  --weight-medium: 500;
+  --weight-regular: 400;
+
+  /* Color */
+  --dark-01: #0e0e0e;
+  --light-01: #ffffff;
+  --light-02: #f5f5f5;
+  --green-01: #006a50;
+  --green-02: #c6e4d6;
+  --green-03: #09a15c;
+  --blue-01: #5490f5;
+  --yellow-01: #ffc239;
+  --yellow-02: #f7ebcf;
+}
+
+/* *: box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* body */
 body {
-  background: crimson;
+  font-family: 'Fira Sans', serif;
+  font-weight: var(--weight-bold);
+  background: #f5f5f5;
+
+  margin: 0 auto;
+}
+
+/* Utility Classes */
+.flexer {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-left {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+button {
+  font-size: var(--font-18px);
+  font-weight: var(--weight-semibold);
+  color: var(--light-01);
+  padding: 15px 26px;
+  border: 2px solid var(--green-01);
+  border-radius: 8px;
+}
+
+.buttonSmall {
+  font-size: var(--font-16px);
+  padding: 17px 39px;
+  border: none;
+}
+
+.colorGreen {
+  color: var(--green-01);
+}
+
+.colorWhite {
+  /* color: var(--light-01); */
+  background: var(--green-01);
+}
+
+.card {
+  border-radius: 24px;
+  padding: 80px 60px;
+}
+
+/* Image Styling */
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Component Styles */
+
+/* Nav Section */
+.nav {
+  margin-bottom: 20px;
+}
+
+.nav h3 {
+  font-size: var(--font-32px);
+}
+
+/* Hero Section */
+.hero {
+  background: var(--green-02);
+}
+
+.heroCta {
+  max-width: 622px;
+}
+
+h4 {
+  font-size: var(--font-24px);
+  font-weight: var(--weight-medium);
+
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--font-56px);
+  margin: 0;
+  padding: 20px 0 20px 0;
+  line-height: 1.2;
 }

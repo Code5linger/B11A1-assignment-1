@@ -90,13 +90,42 @@ button {
   border: none;
 }
 
+.buttonXS {
+  font-size: var(--font-16px);
+  padding: 11px 20px;
+  border: none;
+}
+
 .colorGreen {
   color: var(--green-01);
 }
 
+.bgGreen {
+  background: var(--green-02);
+}
+
+.bgGreenAlt {
+  background: var(--green-03);
+}
+
 .colorWhite {
-  /* color: var(--light-01); */
-  background: var(--green-01);
+  background: var(--light-01);
+}
+
+.colorBlue {
+  background: rgba(84, 144, 245, 0.15);
+}
+
+.bgBlue {
+  background: var(--blue-01);
+}
+
+.bgYellow {
+  background: var(--yellow-02);
+}
+
+.bgYellowAlt {
+  background: var(--yellow-01);
 }
 
 .card {
@@ -155,7 +184,7 @@ h1 {
 
 .cardSmall {
   gap: var(--font-24px);
-  background: var(--light-01);
+
   border: 1px solid rgba(var(--dark-01) 0.15);
   border-radius: 16px;
   padding: 24px;
@@ -171,9 +200,36 @@ h5 {
   margin: 0;
 }
 
-.cardCTA p {
+.cardCTA p,
+.vision p {
   font-size: var(--font-16px);
   font-weight: var(--weight-regular);
   margin: 11px 0 0 0;
   line-height: 1.5;
+}
+
+/* Vision */
+.cardRegular {
+  padding: 32px;
+}
+
+.cardRegular .vision h2 {
+  margin-bottom: 22px;
+}
+
+.vision p {
+  margin: 11px 0 0px 0;
+  line-height: 1.5;
+}
+
+.vision h2 {
+  margin-bottom: 21px;
+}
+
+.cardBlock {
+  margin-top: 33px;
+}
+
+.cardRegularCTA {
+  min-width: 347px;
 }

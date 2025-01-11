@@ -251,6 +251,7 @@ h5 {
   padding: 25px 24px 48px 24px;
   border-radius: 16px;
   margin: 32px auto;
+  border: 1px solid rgba(14, 14, 14, 0.15);
 }
 
 .quoteCardContent {
@@ -267,6 +268,8 @@ h5 {
 
 .pAlt {
   margin: 5px 0px 0px 0px;
+  font-weight: var(--weight-regular);
+  color: rgba(14, 14, 14, 0.6);
 }
 
 /* opinion */

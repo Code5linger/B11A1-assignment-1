@@ -366,7 +366,52 @@ select {
   margin-left: 8px;
 }
 
-/*  */
+/* donate */
+.donate h2 {
+  margin: 0;
+}
+
+.donate p {
+  text-align: center;
+  font-size: var(--font-16px);
+  font-weight: var(--weight-regular);
+  margin: 25px 0;
+  line-height: 1.4;
+  min-width: 1104px;
+}
+
+.donateCards {
+  min-width: 1071px;
+}
+
+.donateCard {
+  padding: 23px 18px;
+}
+
+.donateCard h5 {
+  font-size: var(--font-40px);
+  font-weight: var(--weight-bold);
+}
+
+#donateInput {
+  margin-top: 24px;
+  margin-bottom: 34px;
+  padding: 10px 0 10px 0;
+}
+
+input[type='text'] {
+  text-align: center;
+  width: 1032px;
+  height: 64px;
+  padding: 15px;
+  border: 1px solid var(rgba(14, 14, 14, 0.15));
+  font-size: var(--font-20px);
+  font-weight: var(--weight-regular);
+}
+
+.buttonDonate {
+  padding: 15px 30px;
+}
 
 /* footerCTA */
 .footer {

@@ -309,6 +309,65 @@ select {
   border-radius: 3px;
 }
 
+/*  News */
+.newsCardsBlock {
+  padding-top: 23px;
+  gap: 25px;
+}
+.news h2 {
+  margin: 0px;
+}
+
+.newsCards {
+  background: var(--light-01);
+  padding: 16px;
+  border-radius: 24px;
+}
+
+.newsImg img {
+  min-width: 408px;
+  border-radius: 24px;
+}
+
+.newsCTA {
+  font-weight: var(--weight-regular);
+  margin: 25px 0 10px 0;
+  line-height: 1.4;
+}
+
+.newsBlock {
+  margin: 0 0 0 7px;
+  gap: 15px;
+}
+
+.newsBlock h5 {
+  font-size: var(--font-32px);
+  font-weight: var(--weight-bold);
+  padding-top: 7px;
+}
+
+.newsBlock p {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.flexOrder {
+  order: 1;
+}
+
+.flexOrderMargin {
+  margin-left: -8px;
+}
+
+.buttonBrand {
+  background: var(--green-01);
+  padding: 11px 21px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+
+/*  */
+
 /* footerCTA */
 .footer {
   margin: 80px 0 0 0;

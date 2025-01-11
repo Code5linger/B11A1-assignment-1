@@ -105,6 +105,10 @@ button {
   color: var(--green-01);
 }
 
+.bgColorGreen {
+  background: var(--green-01);
+}
+
 .bgGreen {
   background: var(--green-02);
 }
@@ -142,6 +146,14 @@ button {
   text-align: right;
 }
 
+/* Hover  */
+
+.hoverable:hover {
+  transform: scale(1.02);
+  background-color: #c6e4d6; /* Light green hover */
+  transition: all 0.2s ease-in-out;
+}
+
 /* Image Styling */
 img {
   display: block;
@@ -176,6 +188,10 @@ h1 {
   margin: 0;
   padding: 20px 0 20px 0;
   line-height: 1.2;
+}
+
+.heroTag {
+  color: rgba(14, 14, 14, 0.5);
 }
 
 /* Pillars Section */
@@ -413,9 +429,45 @@ input[type='text'] {
   padding: 15px 30px;
 }
 
+/* Newsletter */
+.newsletterCTA {
+  min-width: 750px;
+}
+
+.newsletterCTA h2 {
+  margin: -9px 0;
+}
+
+.newsletterCTA p {
+  text-align: center;
+  font-size: var(--font-16px);
+  font-weight: var(--weight-regular);
+  line-height: 1.5;
+  max-width: 622px;
+  margin: 26px 0px 24px 0;
+}
+
+.subscribeBTN {
+  margin: 0;
+  border-radius: 0;
+}
+
+input[type='email'] {
+  text-align: left;
+  width: 600px;
+  height: 55px;
+  padding: 12px 15px 15px 39px;
+  font-size: var(--font-16px);
+  font-weight: var(--weight-regular);
+}
+
+.spam {
+  margin: 0;
+}
+
 /* footerCTA */
 .footer {
-  margin: 80px 0 0 0;
+  margin: 48px 0 0 0;
 }
 
 .footerCTA {

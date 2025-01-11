@@ -479,9 +479,20 @@ input[type='email'] {
 
 /* Hover  */
 
-.hoverableYellow:hover {
-  transform: scale(1.02);
-  background-color: var(--yellow-02);
+.hoverableExtra {
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.hoverableExtra:hover {
+  transform: scale(1.25);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.hoverableBlack {
+  transform: scale(1);
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
@@ -495,11 +506,23 @@ input[type='email'] {
   cursor: pointer;
 }
 
+.hoverableGreen {
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
 .hoverableGreen:hover {
   transform: scale(1.02);
   background-color: var(--green-02);
   color: var(--dark-01);
   border: none;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.hoverableWhite {
+  transform: scale(1);
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
@@ -513,8 +536,14 @@ input[type='email'] {
   cursor: pointer;
 }
 
+.hoverable {
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
 .hoverable:hover {
-  transform: scale(1.5);
+  transform: scale(1.02);
   border: none;
   transition: all 0.2s ease-in-out;
   cursor: pointer;

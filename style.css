@@ -60,6 +60,11 @@ section {
   align-items: center;
 }
 
+.flex-center-column {
+  flex-direction: column;
+  align-items: center;
+}
+
 .flex-space-between {
   justify-content: space-between;
   align-items: center;
@@ -152,10 +157,6 @@ img {
 }
 
 /* Hero Section */
-.hero {
-  background: var(--green-02);
-}
-
 .heroCta {
   max-width: 622px;
 }
@@ -184,7 +185,6 @@ h1 {
 
 .cardSmall {
   gap: var(--font-24px);
-
   border: 1px solid rgba(var(--dark-01) 0.15);
   border-radius: 16px;
   padding: 24px;
@@ -232,4 +232,47 @@ h5 {
 
 .cardRegularCTA {
   min-width: 347px;
+}
+
+/* quoteCard */
+.quoteCard {
+  padding: 25px 24px 48px 24px;
+  border-radius: 16px;
+  margin: 32px auto;
+}
+
+.quoteCardContent {
+  background-image: url(./assets/quote-bg.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+
+  font-size: var(--font-16px);
+  font-weight: var(--weight-regular);
+  margin: 0;
+  padding: 28px 0 13px 0;
+  line-height: 1.5;
+}
+
+.pAlt {
+  margin: 5px 0px 0px 0px;
+}
+
+/* footerCTA */
+.footer {
+  margin: 80px 0 0 0;
+}
+
+.footerCTA {
+  padding: 50px 0 32px 0;
+  border-bottom: 2px solid rgba(14, 14, 14, 0.1);
+}
+
+.footerCTA h4 {
+  font-size: var(--font-32px);
+  font-weight: var(--weight-bold);
+}
+
+.footerContact {
+  padding: 32px 0 50px 0;
+  gap: 23px;
 }

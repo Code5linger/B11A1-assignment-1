@@ -138,6 +138,10 @@ button {
   padding: 80px 60px;
 }
 
+.textCenter {
+  text-align: right;
+}
+
 /* Image Styling */
 img {
   display: block;
@@ -255,6 +259,54 @@ h5 {
 
 .pAlt {
   margin: 5px 0px 0px 0px;
+}
+
+/* opinion */
+.opinion h2 {
+  margin: 82px 0 0 0;
+}
+
+table {
+  background: var(--light-01);
+  padding: 32px;
+  margin: 22px auto 0px auto;
+  /* border-collapse: collapse; */
+  border-radius: 16px;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: left;
+}
+
+td {
+  font-size: var(--font-16px);
+  font-weight: var(--weight-semibold);
+}
+
+th {
+  font-size: var(--font-20px);
+  font-weight: var(--weight-semibold);
+  background-color: var(--green-02);
+  padding: 24px;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+select {
+  background: #c6e4d6;
+  font-size: var(--font-16px);
+  font-weight: var(--weight-bold);
+  padding: 12.5px 16.5px;
+  border: 1px solid var(--dark-01);
+  border-radius: 3px;
 }
 
 /* footerCTA */
